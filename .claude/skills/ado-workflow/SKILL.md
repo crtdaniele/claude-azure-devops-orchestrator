@@ -1,24 +1,24 @@
 ---
 name: ado-workflow
-description: Azure DevOps development workflow — gestisce il ciclo di vita di un work item durante lo sviluppo: attivazione, aggiornamento descrizione, e collegamento alla PR. Da usare ogni volta che si inizia uno sviluppo o si apre una PR su questo progetto.
+description: "Azure DevOps development workflow — gestisce il ciclo di vita di un work item durante lo sviluppo: attivazione, aggiornamento descrizione, e collegamento alla PR. Da usare ogni volta che si inizia uno sviluppo o si apre una PR su questo progetto."
 ---
 
 # ADO Workflow
 
 Questo skill definisce il workflow obbligatorio da seguire quando si sviluppa su questo progetto con Azure DevOps.
 
-> **Prerequisito:** Prima di eseguire qualsiasi comando, leggi dalla memoria i seguenti valori raccolti durante l'Init. Se non sono presenti, esegui l'Init come descritto in CLAUDE.md.
->
-> | Variabile         | Usata per                                                 |
-> | ----------------- | --------------------------------------------------------- |
-> | `ADO_ORG`         | organizzazione Azure DevOps                               |
-> | `ADO_PROJECT`     | work items, board, iterazioni — es. `am-digital-products` |
-> | `ADO_REPOSITORY`  | operazioni git e PR — es. `be-app-segafredo`              |
-> | `ADO_TEAM`        | team della board — es. `Burst Devs Team`                  |
-> | `ADO_BOARD_URL`   | link diretto alla board del team                          |
-> | `ADO_MAIN_BRANCH` | branch target delle PR                                    |
->
-> **Importante:** `ADO_PROJECT` e `ADO_REPOSITORY` sono distinti. Tutte le operazioni su work item usano `ADO_PROJECT`; tutte le operazioni su PR e branch usano `ADO_REPOSITORY`.
+**Prerequisito:** Prima di eseguire qualsiasi comando, leggi dalla memoria i seguenti valori raccolti durante l'Init. Se non sono presenti, esegui l'Init come descritto in CLAUDE.md.
+
+| Variabile | Usata per         |
+| --------- | ----------------- | --------------------------------------------------------- |
+| >         | `ADO_ORG`         | organizzazione Azure DevOps                               |
+| >         | `ADO_PROJECT`     | work items, board, iterazioni — es. `am-digital-products` |
+| >         | `ADO_REPOSITORY`  | operazioni git e PR — es. `be-app-segafredo`              |
+| >         | `ADO_TEAM`        | team della board — es. `Burst Devs Team`                  |
+| >         | `ADO_BOARD_URL`   | link diretto alla board del team                          |
+| >         | `ADO_MAIN_BRANCH` | branch target delle PR                                    |
+
+**Importante:** `ADO_PROJECT` e `ADO_REPOSITORY` sono distinti. Tutte le operazioni su work item usano `ADO_PROJECT`; tutte le operazioni su PR e branch usano `ADO_REPOSITORY`.
 
 ## Quando usare questo skill
 
