@@ -57,8 +57,8 @@ All'avvio di ogni sessione Claude legge dalla memoria i valori di configurazione
 | Variabile | Descrizione | Esempio |
 |-----------|-------------|---------|
 | `ADO_ORG` | Nome organizzazione Azure DevOps | `myorg` |
-| `ADO_PROJECT` | Progetto ADO — contiene board, work items, team | `am-digital-products` |
-| `ADO_REPOSITORY` | Repository git corrente su cui si lavora | `be-app-segafredo` |
+| `ADO_PROJECT` | Progetto ADO — contiene board, work items, team | `your_project` |
+| `ADO_REPOSITORY` | Repository git corrente su cui si lavora | `your_repository` |
 | `ADO_TEAM` | Nome del team | `My Team` |
 | `ADO_PIPELINE_ID` | ID numerico della pipeline CI/CD | `1234` |
 | `ADO_MAIN_BRANCH` | Branch principale | `master` |
