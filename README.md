@@ -45,7 +45,7 @@ Configurazione di **Claude Code** per integrare Azure DevOps tramite MCP server.
 
 Sostituisci:
 - `<ADO_ORG>` → nome dell'organizzazione Azure DevOps
-- `<ADO_PROJECT>` → nome del progetto ADO (es. `am-digital-products`)
+- `<ADO_PROJECT>` → nome del progetto ADO (es. `your_project`)
 - `<IL_TUO_PAT>` → Personal Access Token (**non committare mai questo file**)
 
 > Aggiungi `.mcp.json` al `.gitignore`.
