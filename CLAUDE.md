@@ -28,7 +28,7 @@ Verificare se il file `.mcp.json` esiste nella root del progetto. Se non esiste,
 
 ```json
 {
-  "servers": {
+  "mcpServers": {
     "azure-devops": {
       "type": "stdio",
       "command": "npx",
