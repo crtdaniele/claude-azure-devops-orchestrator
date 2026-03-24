@@ -13,12 +13,12 @@ Raccogli questi valori e salvali in memoria come tipo `project`:
 | Variabile         | Descrizione                                                   | Esempio                                                                             |
 | ----------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | `ADO_ORG`         | Nome dell'organizzazione Azure DevOps                         | `myorg`                                                                             |
-| `ADO_PROJECT`     | Nome del progetto ADO — container di board, work items e team | `am-digital-products`                                                               |
-| `ADO_REPOSITORY`  | Nome del repository git corrente su cui si lavora             | `be-app-segafredo`                                                                  |
+| `ADO_PROJECT`     | Nome del progetto ADO — container di board, work items e team | `your_project`                                                               |
+| `ADO_REPOSITORY`  | Nome del repository git corrente su cui si lavora             | `your_repository`                                                                  |
 | `ADO_TEAM`        | Nome del team                                                 | `My Team`                                                                           |
 | `ADO_PIPELINE_ID` | ID numerico della pipeline CI/CD                              | `1234`                                                                              |
 | `ADO_MAIN_BRANCH` | Branch principale                                             | `master`                                                                            |
-| `ADO_BOARD_URL`   | URL diretto della board del team (fornito dall'utente)        | `https://dev.azure.com/myorg/am-digital-products/_boards/board/t/My%20Team/Stories` |
+| `ADO_BOARD_URL`   | URL diretto della board del team (fornito dall'utente)        | `https://dev.azure.com/myorg/your_project/_boards/board/t/My%20Team/Stories` |
 
 > **Nota:** `ADO_PROJECT` e `ADO_REPOSITORY` sono concetti distinti. Il progetto è il container ADO (board, work items, iterazioni). Il repository è il repo git su cui si sta lavorando — può cambiare da sessione a sessione.
 
