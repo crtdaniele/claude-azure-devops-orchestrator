@@ -40,7 +40,8 @@ Verificare se il file `.mcp.json` esiste nella root del progetto. Se non esiste,
         "env"
       ],
       "env": {
-        "AZURE_DEVOPS_EXT_PAT": "AZURE_DEVOPS_EXT_PAT"
+        "AZURE_DEVOPS_EXT_PAT": "AZURE_DEVOPS_EXT_PAT",
+        "AZURE_DEVOPS_EXT_PAT": "<IL_TUO_PAT>"
       }
     },
     "playwright": {
